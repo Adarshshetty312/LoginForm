@@ -1,0 +1,78 @@
+:root{
+  --nav-bg: rgb(51, 51, 51);
+  --nav-hover: rgb(0, 0, 0);
+  --inner-cntnt: rgb(230, 230, 250);
+}
+
+body{
+  margin:0px;
+  font-family: sans-serif;
+  background-image: url("wallpaper.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nav-links{
+  background: var(--nav-bg);
+  height:50px;
+  display: flex;
+}
+
+.same{
+  text-decoration: none;
+  color: blanchedalmond;
+  padding:15px;
+  font-size: 17px;
+  font-family: cursive;
+  margin-left:30px;
+}
+
+.same:hover{
+  background: var(--nav-hover);
+}
+
+.fas{
+  margin-left: 0.9rem;
+}
+.aim-content,
+.aim-link-2-content{
+  display: none;
+  background-color: var(--inner-cntnt);
+  position: absolute;
+  top: 3.1rem;
+}
+
+.aim-content{
+  left: 25.3rem ;
+  width: 9rem;
+}
+.same-about,
+.same-aim,
+.aim-link-2-same{
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.same-about:hover,
+.same-aim:hover,
+.aim-link-2-same:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color:blanchedalmond;
+}
+
+
+.link3:hover + .aim-content,
+.aim-content:hover{
+  display: block;
+}
+
+.move {
+  margin-left: 650px;
+  margin-top: 100px;
+  font-size: 40px;
+  color:white;
+}
+
