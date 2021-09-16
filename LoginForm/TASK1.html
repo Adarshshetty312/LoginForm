@@ -1,0 +1,75 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link href="style.css"rel="stylesheet" type="text/css">
+
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center style="color:white">  <h1>LOGIN FORM</h1> </center>  
+  <hr>  
+  <label> Name </label>   
+<input type="text" name="firstname" placeholder= "Fullname" size="15" required />   
+<div>  
+<label>   
+Semester :  
+</label>   
+  
+<select>  
+<option value="First">First</option>  
+<option value="Second">Second</option>  
+<option value="Third">Third</option>  
+<option value="Fourth">Fourth</option>  
+<option value="Fifth">Fifth</option>  
+<option value="Sixth">Sixth</option>    
+</select>  
+</div>  
+<div>  
+<label>   
+Gender :
+<br>
+</label><br> 
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+  
+</div> 
+<div>
+    <label>
+        Hobbies : <br>
+        </label>
+<div class="box">
+    <label class="checkbox">
+        <input type="checkbox" id="checkbox1"value="option1">Dancing</label>
+        <label class="checkbox">
+            <input type="checkbox" id="checkbox1"value="option1">Singing</label>
+            <label class="checkbox">
+                <input type="checkbox" id="checkbox1"value="option1">Coding</label>
+                <label class="checkbox">
+                    <input type="checkbox" id="checkbox1"value="option1">Swimming</label>
+                    </div>
+                </label><br>
+
+                <label>
+Phone :  
+ </label>
+<input type="tel" name="phone" placeholder="phone no." maxlength="10" pattern="[0-9]{10}"/ required>   
+<br><br>
+ Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+    <button type="submit" value="submit" class="registerbtn">Submit</button>&nbsp;&nbsp;&nbsp;
+    <button type="reset" value="submit" class="registerbtn">Reset</button>    
+</form>  
+</body>  
+</html>  

@@ -1,0 +1,33 @@
+
+body{  
+  font-family: sans-serif;  
+  background-color:rgb(89, 215, 253);   
+}  
+.container {  
+    padding: 50px;  
+    background-image: url("Wallpaper1.jpeg");  
+    color:white;
+}    
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  border: none;  
+  background:white;  
+}   
+ div {  
+    padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid rgb(89, 215, 253);  
+  margin-bottom: 25px;  
+}  
+.registerbtn { 
+  background-color: rgb(89, 215, 253);  
+  color:black;  
+  padding: 16px 20px;      
+  cursor: pointer;  
+  width:auto; 
+  font: size 17px;
+  font-weight: bold;
+}  
